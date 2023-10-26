@@ -27,3 +27,11 @@ document.write("hola mundito");
 
 //ventanas emergentes
 alert("esto es un ejemplo de una alertita");
+
+//solicitar un número al usuario y luego sumarle 5, por ultimo mostrar el resultado de la suma
+
+const numeroSolicitado = parseInt(prompt("ingrese un numero del 1 al 100"));
+console.log(numeroSolicitado);
+
+console.log("resultado: " + numeroSolicitado + 5);
+console.log(numeroSolicitado + 5);
