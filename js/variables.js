@@ -7,6 +7,7 @@ en multiples lineas*/
 //declarar una variable ( var[ya no se usa], let, const)
 
 let anioActual = 2023;
+const url = "https://universe.rollingcodeschool.com/";
 
 //mostrar un mensaje
 
@@ -18,3 +19,4 @@ console.log("Año actual: " + anioActual + " hola mundo");
 
 anioActual = 2023 + 1;
 console.log("Año actual: " + anioActual);
+console.log(url)
